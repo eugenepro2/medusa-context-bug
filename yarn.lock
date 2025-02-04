@@ -1843,7 +1843,7 @@ __metadata:
 
 "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=a1831e&locator=medusa%40workspace%3A."
+  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=59ea71&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -1859,7 +1859,7 @@ __metadata:
     "@mikro-orm/postgresql": 6.4.3
     awilix: ^8.0.1
     pg: ^8.13.0
-  checksum: 10c0/8308ed197ccdc10987fc9d1899027bef0b0a3727c0094294d56e7373b911261ad88ca50d20d92c144914ec7b54ca938169e21523de204d0363663239ea333319
+  checksum: 10c0/af95b47af3568990b650654174f8989bfdd4d45609d790fd37f45578cb3ce760c38c6108749c9ecc3b6bf1f1c0026db3b41619c54561769cf9a8ffc97762d085
   languageName: node
   linkType: hard
 
@@ -3704,7 +3704,7 @@ __metadata:
 
 "@myorg/plugin-name@file:.yalc/@myorg/plugin-name::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=d53a75&locator=medusa%40workspace%3A."
+  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=a41b38&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -3721,7 +3721,7 @@ __metadata:
     awilix: ^8.0.1
     pg: ^8.13.0
     qs: ^6.14.0
-  checksum: 10c0/ee73caad3c81b4ce03a58b866087ee2cc58e7289e225408abed861e312c3145bba27fb549b168edb09408eb71a0be38ffff1ad0e426ae71d20f9ca97a405b37a
+  checksum: 10c0/0fe3913f89aefa2e1c971d4f4ec6e5757954d0051af61f3a8191cb259abb69192e953995b23352ceaf9a89e7e8a2ffe6d922f8c7ba305674a2bc3d91a6a887e9
   languageName: node
   linkType: hard
 
@@ -8192,13 +8192,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"awilix@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "awilix@npm:8.0.1"
+"awilix@npm:^12.0.4":
+  version: 12.0.4
+  resolution: "awilix@npm:12.0.4"
   dependencies:
     camel-case: "npm:^4.1.2"
-    fast-glob: "npm:^3.2.12"
-  checksum: 10c0/088da738d5cc380a1637e5757d63fc70a7954ca6c168bad15a65caab96922cad34f8a461f6071cd213f81109c281d83a70a4df04b8668f5230a19c5b903fca37
+    fast-glob: "npm:^3.3.2"
+  checksum: 10c0/8a39f895b45f527605be4b3b34e9b91ee75b9f8d4614a80c005f604f936fd3f313629e9ca48a68dd9edcd989c2d78bf737f0ecbca976a4aa33c46852d318e803
   languageName: node
   linkType: hard
 
@@ -10022,7 +10022,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2":
+"fast-glob@npm:^3.2.9, fast-glob@npm:^3.3.2":
   version: 3.3.3
   resolution: "fast-glob@npm:3.3.3"
   dependencies:
@@ -12181,7 +12181,7 @@ __metadata:
     "@types/node": "npm:^20.0.0"
     "@types/react": "npm:^18.3.2"
     "@types/react-dom": "npm:^18.2.25"
-    awilix: "npm:^8.0.1"
+    awilix: "npm:^12.0.4"
     jest: "npm:^29.7.0"
     pg: "npm:^8.13.0"
     prop-types: "npm:^15.8.1"
@@ -15112,11 +15112,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/3b56d6afa03d9f6172d0b9cdb10e6b1efc9abc1608efd7a3d2f38773d5d8cfb9bbc68dfb72f0a7de5e8db04fc847f4e4baeddcd5ad9c9feda072234f0d788896
+  checksum: 10c0/6fd7e0ed3bf23a81246878c613423730c40e8bdbfec4c6e4d7bf1b847cbb39076e56ad5f50aa9d7ebd89877999abaee216002d3f2818885e41c907caaa192cc4
   languageName: node
   linkType: hard
 

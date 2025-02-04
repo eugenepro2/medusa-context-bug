@@ -33,7 +33,7 @@
     "@mikro-orm/migrations": "6.4.3",
     "@mikro-orm/postgresql": "6.4.3",
     "@myorg/plugin-name": "file:.yalc/@myorg/plugin-name",
-    "awilix": "^8.0.1",
+    "awilix": "^12.0.4",
     "pg": "^8.13.0"
   },
   "devDependencies": {
