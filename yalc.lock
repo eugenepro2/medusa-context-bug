@@ -1,0 +1,13 @@
+{
+  "version": "v1",
+  "packages": {
+    "@eugenepro/medusa-plugin-pages": {
+      "signature": "f25606b5f2c299c536c59c8da34b393c",
+      "file": true
+    },
+    "@myorg/plugin-name": {
+      "signature": "019acf08916b2867ad913efb0d539303",
+      "file": true
+    }
+  }
+}
