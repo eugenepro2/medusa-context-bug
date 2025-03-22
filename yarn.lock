@@ -1843,7 +1843,7 @@ __metadata:
 
 "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=a1831e&locator=medusa%40workspace%3A."
+  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=59ea71&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -1859,7 +1859,7 @@ __metadata:
     "@mikro-orm/postgresql": 6.4.3
     awilix: ^8.0.1
     pg: ^8.13.0
-  checksum: 10c0/8308ed197ccdc10987fc9d1899027bef0b0a3727c0094294d56e7373b911261ad88ca50d20d92c144914ec7b54ca938169e21523de204d0363663239ea333319
+  checksum: 10c0/af95b47af3568990b650654174f8989bfdd4d45609d790fd37f45578cb3ce760c38c6108749c9ecc3b6bf1f1c0026db3b41619c54561769cf9a8ffc97762d085
   languageName: node
   linkType: hard
 
@@ -3609,6 +3609,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.11":
+  version: 6.4.11
+  resolution: "@mikro-orm/knex@npm:6.4.11"
+  dependencies:
+    fs-extra: "npm:11.3.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10c0/e8e2474d2842bb9589f1f03bdfd45a7684b58fa9288b3d3e6a67882dcdb8bdd9f9a33d825d4bcbedcd5547e0b9a7846d0a7259103879477b6ce446a4d7c3fd50
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/knex@npm:6.4.3":
   version: 6.4.3
   resolution: "@mikro-orm/knex@npm:6.4.3"
@@ -3645,18 +3668,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@mikro-orm/postgresql@npm:6.4.3":
-  version: 6.4.3
-  resolution: "@mikro-orm/postgresql@npm:6.4.3"
+"@mikro-orm/postgresql@npm:6.4.11":
+  version: 6.4.11
+  resolution: "@mikro-orm/postgresql@npm:6.4.11"
   dependencies:
-    "@mikro-orm/knex": "npm:6.4.3"
-    pg: "npm:8.13.1"
-    postgres-array: "npm:3.0.2"
+    "@mikro-orm/knex": "npm:6.4.11"
+    pg: "npm:8.14.1"
+    postgres-array: "npm:3.0.4"
     postgres-date: "npm:2.1.0"
     postgres-interval: "npm:4.0.2"
   peerDependencies:
     "@mikro-orm/core": ^6.0.0
-  checksum: 10c0/c0068dbd8f81d646de1171e9933e1385cd24faedb8a4347b9ab2c24e9bfa19a56cc5a6245aaf84fc8a19b355d02a7f1c160400483aa12411e3487e82b854e12c
+  checksum: 10c0/71172c787b815d9246572c5c3380c34e389f050b237ee03bb909c887ee16299e2e90d40e1809b4650655fb8d792b961422a1a1be63d6334a969a7125f43b221e
   languageName: node
   linkType: hard
 
@@ -3704,7 +3727,7 @@ __metadata:
 
 "@myorg/plugin-name@file:.yalc/@myorg/plugin-name::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=d53a75&locator=medusa%40workspace%3A."
+  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=a41b38&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -3721,7 +3744,7 @@ __metadata:
     awilix: ^8.0.1
     pg: ^8.13.0
     qs: ^6.14.0
-  checksum: 10c0/ee73caad3c81b4ce03a58b866087ee2cc58e7289e225408abed861e312c3145bba27fb549b168edb09408eb71a0be38ffff1ad0e426ae71d20f9ca97a405b37a
+  checksum: 10c0/0fe3913f89aefa2e1c971d4f4ec6e5757954d0051af61f3a8191cb259abb69192e953995b23352ceaf9a89e7e8a2ffe6d922f8c7ba305674a2bc3d91a6a887e9
   languageName: node
   linkType: hard
 
@@ -10277,6 +10300,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.0, fs-extra@npm:~11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -10296,17 +10330,6 @@ __metadata:
     jsonfile: "npm:^4.0.0"
     universalify: "npm:^0.1.0"
   checksum: 10c0/259f7b814d9e50d686899550c4f9ded85c46c643f7fe19be69504888e007fcbc08f306fae8ec495b8b998635e997c9e3e175ff2eeed230524ef1c1684cc96423
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:~11.3.0":
-  version: 11.3.0
-  resolution: "fs-extra@npm:11.3.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
   languageName: node
   linkType: hard
 
@@ -12173,7 +12196,7 @@ __metadata:
     "@mikro-orm/core": "npm:6.4.3"
     "@mikro-orm/knex": "npm:6.4.3"
     "@mikro-orm/migrations": "npm:6.4.3"
-    "@mikro-orm/postgresql": "npm:6.4.3"
+    "@mikro-orm/postgresql": "npm:6.4.11"
     "@myorg/plugin-name": "file:.yalc/@myorg/plugin-name"
     "@swc/core": "npm:1.5.7"
     "@swc/jest": "npm:^0.2.36"
@@ -13124,10 +13147,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pg-pool@npm:^3.8.0":
+  version: 3.8.0
+  resolution: "pg-pool@npm:3.8.0"
+  peerDependencies:
+    pg: ">=8.0"
+  checksum: 10c0/c05287b0caafeab43807e6ad22d153c09c473dbeb5b2cea13b83102376e9a56f46b91fa9adf9d53885ce198280c6a95555390987c42b3858d1936d3e0cdc83aa
+  languageName: node
+  linkType: hard
+
 "pg-protocol@npm:^1.7.0":
   version: 1.7.0
   resolution: "pg-protocol@npm:1.7.0"
   checksum: 10c0/c4af854d9b843c808231c0040fed89f2b9101006157df8da2bb2f62a7dde702de748d852228dc22df41cc7ffddfb526af3bcb34b278b581e9f76a060789186c1
+  languageName: node
+  linkType: hard
+
+"pg-protocol@npm:^1.8.0":
+  version: 1.8.0
+  resolution: "pg-protocol@npm:1.8.0"
+  checksum: 10c0/2be784955599d84b564795952cee52cc2b8eab0be43f74fc1061506353801e282c1d52c9e0691a9b72092c1f3fde370e9b181e80fef6bb82a9b8d1618bfa91e6
   languageName: node
   linkType: hard
 
@@ -13144,7 +13183,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pg@npm:8.13.1, pg@npm:^8.11.3, pg@npm:^8.13.0, pg@npm:^8.3.0":
+"pg@npm:8.14.1":
+  version: 8.14.1
+  resolution: "pg@npm:8.14.1"
+  dependencies:
+    pg-cloudflare: "npm:^1.1.1"
+    pg-connection-string: "npm:^2.7.0"
+    pg-pool: "npm:^3.8.0"
+    pg-protocol: "npm:^1.8.0"
+    pg-types: "npm:^2.1.0"
+    pgpass: "npm:1.x"
+  peerDependencies:
+    pg-native: ">=3.0.1"
+  dependenciesMeta:
+    pg-cloudflare:
+      optional: true
+  peerDependenciesMeta:
+    pg-native:
+      optional: true
+  checksum: 10c0/221741cfcea4ab32c8b57bd60703bc36cfb5622dcac56c19e45f504ef8669f2f2e0429af8850f58079cfc89055da35b5a5e12de19e0505e3f61a4b4349388dcb
+  languageName: node
+  linkType: hard
+
+"pg@npm:^8.11.3, pg@npm:^8.13.0, pg@npm:^8.3.0":
   version: 8.13.1
   resolution: "pg@npm:8.13.1"
   dependencies:
@@ -13314,10 +13375,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postgres-array@npm:3.0.2":
-  version: 3.0.2
-  resolution: "postgres-array@npm:3.0.2"
-  checksum: 10c0/644aa071f67a66a59f641f8e623887d2b915bc102a32643e2aa8b54c11acd343c5ad97831ea444dd37bd4b921ba35add4aa2cb0c6b76700a8252c2324aeba5b4
+"postgres-array@npm:3.0.4":
+  version: 3.0.4
+  resolution: "postgres-array@npm:3.0.4"
+  checksum: 10c0/47f3e648da512bacdd6a5ed55cf770605ec271330789faeece0fd13805a49f376d6e5c9e0e353377be11a9545e727dceaa2473566c505432bf06366ccd04c6b2
   languageName: node
   linkType: hard
 
@@ -15112,11 +15173,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/3b56d6afa03d9f6172d0b9cdb10e6b1efc9abc1608efd7a3d2f38773d5d8cfb9bbc68dfb72f0a7de5e8db04fc847f4e4baeddcd5ad9c9feda072234f0d788896
+  checksum: 10c0/6fd7e0ed3bf23a81246878c613423730c40e8bdbfec4c6e4d7bf1b847cbb39076e56ad5f50aa9d7ebd89877999abaee216002d3f2818885e41c907caaa192cc4
   languageName: node
   linkType: hard
 
