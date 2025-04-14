@@ -1843,7 +1843,7 @@ __metadata:
 
 "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=a1831e&locator=medusa%40workspace%3A."
+  resolution: "@eugenepro/medusa-plugin-pages@file:.yalc/@eugenepro/medusa-plugin-pages#.yalc/@eugenepro/medusa-plugin-pages::hash=59ea71&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -1859,7 +1859,7 @@ __metadata:
     "@mikro-orm/postgresql": 6.4.3
     awilix: ^8.0.1
     pg: ^8.13.0
-  checksum: 10c0/8308ed197ccdc10987fc9d1899027bef0b0a3727c0094294d56e7373b911261ad88ca50d20d92c144914ec7b54ca938169e21523de204d0363663239ea333319
+  checksum: 10c0/af95b47af3568990b650654174f8989bfdd4d45609d790fd37f45578cb3ce760c38c6108749c9ecc3b6bf1f1c0026db3b41619c54561769cf9a8ffc97762d085
   languageName: node
   linkType: hard
 
@@ -3609,6 +3609,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mikro-orm/knex@npm:6.4.13":
+  version: 6.4.13
+  resolution: "@mikro-orm/knex@npm:6.4.13"
+  dependencies:
+    fs-extra: "npm:11.3.0"
+    knex: "npm:3.1.0"
+    sqlstring: "npm:2.3.3"
+  peerDependencies:
+    "@mikro-orm/core": ^6.0.0
+    better-sqlite3: "*"
+    libsql: "*"
+    mariadb: "*"
+  peerDependenciesMeta:
+    better-sqlite3:
+      optional: true
+    libsql:
+      optional: true
+    mariadb:
+      optional: true
+  checksum: 10c0/5f0f14bf4a6a323fe021e4084b55f1371b9d51aa80971b7c30e4cf831e873eabf92b139162d8fb4dc45311a803836bdcbb483960ce84e25acd14b8831606f49f
+  languageName: node
+  linkType: hard
+
 "@mikro-orm/knex@npm:6.4.3":
   version: 6.4.3
   resolution: "@mikro-orm/knex@npm:6.4.3"
@@ -3704,7 +3727,7 @@ __metadata:
 
 "@myorg/plugin-name@file:.yalc/@myorg/plugin-name::locator=medusa%40workspace%3A.":
   version: 0.0.1
-  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=d53a75&locator=medusa%40workspace%3A."
+  resolution: "@myorg/plugin-name@file:.yalc/@myorg/plugin-name#.yalc/@myorg/plugin-name::hash=a41b38&locator=medusa%40workspace%3A."
   peerDependencies:
     "@medusajs/admin-sdk": 2.4.0
     "@medusajs/cli": 2.4.0
@@ -3721,7 +3744,7 @@ __metadata:
     awilix: ^8.0.1
     pg: ^8.13.0
     qs: ^6.14.0
-  checksum: 10c0/ee73caad3c81b4ce03a58b866087ee2cc58e7289e225408abed861e312c3145bba27fb549b168edb09408eb71a0be38ffff1ad0e426ae71d20f9ca97a405b37a
+  checksum: 10c0/0fe3913f89aefa2e1c971d4f4ec6e5757954d0051af61f3a8191cb259abb69192e953995b23352ceaf9a89e7e8a2ffe6d922f8c7ba305674a2bc3d91a6a887e9
   languageName: node
   linkType: hard
 
@@ -10277,6 +10300,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:11.3.0, fs-extra@npm:~11.3.0":
+  version: 11.3.0
+  resolution: "fs-extra@npm:11.3.0"
+  dependencies:
+    graceful-fs: "npm:^4.2.0"
+    jsonfile: "npm:^6.0.1"
+    universalify: "npm:^2.0.0"
+  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
+  languageName: node
+  linkType: hard
+
 "fs-extra@npm:^10.0.0":
   version: 10.1.0
   resolution: "fs-extra@npm:10.1.0"
@@ -10296,17 +10330,6 @@ __metadata:
     jsonfile: "npm:^4.0.0"
     universalify: "npm:^0.1.0"
   checksum: 10c0/259f7b814d9e50d686899550c4f9ded85c46c643f7fe19be69504888e007fcbc08f306fae8ec495b8b998635e997c9e3e175ff2eeed230524ef1c1684cc96423
-  languageName: node
-  linkType: hard
-
-"fs-extra@npm:~11.3.0":
-  version: 11.3.0
-  resolution: "fs-extra@npm:11.3.0"
-  dependencies:
-    graceful-fs: "npm:^4.2.0"
-    jsonfile: "npm:^6.0.1"
-    universalify: "npm:^2.0.0"
-  checksum: 10c0/5f95e996186ff45463059feb115a22fb048bdaf7e487ecee8a8646c78ed8fdca63630e3077d4c16ce677051f5e60d3355a06f3cd61f3ca43f48cc58822a44d0a
   languageName: node
   linkType: hard
 
@@ -12171,7 +12194,7 @@ __metadata:
     "@medusajs/test-utils": "npm:2.4.0"
     "@mikro-orm/cli": "npm:6.4.3"
     "@mikro-orm/core": "npm:6.4.3"
-    "@mikro-orm/knex": "npm:6.4.3"
+    "@mikro-orm/knex": "npm:6.4.13"
     "@mikro-orm/migrations": "npm:6.4.3"
     "@mikro-orm/postgresql": "npm:6.4.3"
     "@myorg/plugin-name": "file:.yalc/@myorg/plugin-name"
@@ -15112,11 +15135,11 @@ __metadata:
 
 "typescript@patch:typescript@npm%3A^5.6.2#optional!builtin<compat/typescript>":
   version: 5.7.3
-  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=cef18b"
+  resolution: "typescript@patch:typescript@npm%3A5.7.3#optional!builtin<compat/typescript>::version=5.7.3&hash=5786d5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/3b56d6afa03d9f6172d0b9cdb10e6b1efc9abc1608efd7a3d2f38773d5d8cfb9bbc68dfb72f0a7de5e8db04fc847f4e4baeddcd5ad9c9feda072234f0d788896
+  checksum: 10c0/6fd7e0ed3bf23a81246878c613423730c40e8bdbfec4c6e4d7bf1b847cbb39076e56ad5f50aa9d7ebd89877999abaee216002d3f2818885e41c907caaa192cc4
   languageName: node
   linkType: hard
 
